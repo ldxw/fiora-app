@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    运行：linux
+    运行：ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
